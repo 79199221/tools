@@ -14,7 +14,8 @@ npm run dev
 # build electron application for production
 npm run build
 
-
+https://my.oschina.net/dtdths/blog/1614712
+cnpm install sqlite3@latest --build-from-source --runtime=electron --target=2.0.9 --dist-url=https://atom.io/download/electron --save
 ```
 
 ---

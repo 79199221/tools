@@ -1,38 +1,63 @@
 <template>
     <div>
         <nav class="nav-group">
-            <h5 class="nav-group-title">Favorites</h5>
-            <a class="nav-group-item active">
+            <h5 class="nav-group-title">常用工具</h5>
+            <router-link to="/index" class="nav-group-item" active-class="active">
                 <span class="icon icon-home"></span>
-                Application
-            </a>
-            <span class="nav-group-item">
-                <span class="icon icon-download"></span>
-                Website
-            </span>
-            <span class="nav-group-item">
+                <span>Index</span>
+            </router-link>
+            <router-link to="/application" class="nav-group-item" active-class="active">
+                <span class="icon icon-monitor"></span>
+                <span>Application</span>
+            </router-link>
+            <router-link to="/website" class="nav-group-item" active-class="active">
+                <span class="icon icon-link"></span>
+                <span>Website</span>
+            </router-link>
+            <router-link to="/folder" class="nav-group-item" active-class="active">
                 <span class="icon icon-folder"></span>
-                Dirctory
-            </span>
-            <span class="nav-group-item">
-                <span class="icon icon-signal"></span>
-                Files
-            </span>
-            <span class="nav-group-item">
-                <span class="icon icon-print"></span>
-                Applications
-            </span>
-            <span class="nav-group-item">
-                <span class="icon icon-cloud"></span>
-                Desktop
-            </span>
+                <span>Folders</span>
+            </router-link>
+            <router-link to="/file" class="nav-group-item" active-class="active">
+                <span class="icon icon-docs"></span>
+                <span>Files</span>
+            </router-link>
+        </nav>
+        <nav class="nav-group">
+            <h5 class="nav-group-title">网易云音乐</h5>
+            <router-link to="/index" class="nav-group-item" active-class="active">
+                <span class="icon icon-home"></span>
+                <span>Index</span>
+            </router-link>
+            <router-link to="/application" class="nav-group-item" active-class="active">
+                <span class="icon icon-monitor"></span>
+                <span>Application</span>
+            </router-link>
+            <router-link to="/website" class="nav-group-item" active-class="active">
+                <span class="icon icon-link"></span>
+                <span>Website</span>
+            </router-link>
+            <router-link to="/folder" class="nav-group-item" active-class="active">
+                <span class="icon icon-folder"></span>
+                <span>Folders</span>
+            </router-link>
+            <router-link to="/file" class="nav-group-item" active-class="active">
+                <span class="icon icon-docs"></span>
+                <span>Files</span>
+            </router-link>
         </nav>
     </div>
 </template>
 
 <script>
     export default {
-        name: "PageNav"
+        name: "PageNav",
+        data(){
+            return {
+            }
+        },
+        created(){
+        }
     }
 </script>
 

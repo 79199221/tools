@@ -6,7 +6,6 @@
                 <div class="pane-group">
                     <div class="pane-sm sidebar">
                         <page-nav></page-nav>
-                        <page-nav></page-nav>
                     </div>
                     <div class="pane">
                         <router-view></router-view>
@@ -26,7 +25,6 @@
         name: 'tools',
         components: { PageTop, PageBottom, PageNav },
         created(){
-            console.log(PageTop)
         }
   }
 </script>

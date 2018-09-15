@@ -22,7 +22,7 @@ function createWindow () {
     useContentSize: true,
     width: 1000
   })
-
+// console.log(require('sqlite3').verbose())
   mainWindow.loadURL(winURL)
 
   mainWindow.on('closed', () => {
